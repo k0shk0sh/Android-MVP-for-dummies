@@ -47,8 +47,6 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     @Override
     public void onLoginError(String error) {
-//        loginView.onEmailError(null); it's preferably to be called, but then i don't want to make things to be harder.
-//        loginView.onPasswordError(null); it's preferably to be called, but then i don't want to make things to be harder.
         loginView.onHideProgress();
         loginView.onError(error);
     }
