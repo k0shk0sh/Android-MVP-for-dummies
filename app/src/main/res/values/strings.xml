@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MVP For Dummies</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login_in_short">Login in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="example_message">This is an example project that demonstrate how to structure  MVP project for dummies.\nUpon clicking
+        Login, a random (success,error) message will be generated</string>
+</resources>
